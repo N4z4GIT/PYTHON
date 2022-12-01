@@ -1,0 +1,60 @@
+1) ¿QUE ES UN CICLO DE VIDA DEL SOFTWARE?
+2) DIFERENCIA ENTRE REQUERIMIENTOS FUNCIONALES Y NO FUNCIONALES.
+3) MENCIONE LAS ESTRUCTURA DE CONTROL BASICA.
+4) VENTAJAS DE LA PROGRAMACION MODULAR. 
+5) ¿QUE ES LA ABSTRACCION?
+6) DEFINA QUE ES UN INTERPRETE.
+7 ¿QUE ES UN PATRON DE SOFTWARE?
+
+1- El CICLO DE VIDA DEL SOFTWARE contempla las fases necesarias para validar el desarrollo 
+del software y así garantizar que este cumpla los requisitos para la aplicación y verificación
+de los procedimientos de desarrollo asegurándose de que los métodos usados son apropiados. 
+Sus fases son: PLANIFICACION, ANALISIS, DISEÑO, IMPLEMENTACION, PRUEBAS, INSTALACION O
+DESPLIEGUE, USO Y MANTENIMIENTO.
+
+2- La diferencia entre REQUISITOS FUNCIONALES y NO FUNCIONALES es que el primero lo 
+especifican los usuarios, analistas comerciales y es parte de la lista de funciones del software.
+Por ejemplo, el REQUISITO FUNCIONAL de una aplicación comercial es recibir el pedido, enriquecerlo,
+transformarlo y enviarlo a la bolsa de valores, pero el REQUISITO NO FUNCIONAL no lo especifica el
+usuario, sino que lo piensa un arquitecto de software, expertos en la materia, líderes técnicos y 
+personas de apoyo. Por ejemplo, para esta misma aplicación comercial, los REQUISITOS NO FUNCIONALES 
+podrían ser conmutación por error y recuperación, registro, auditoría, latencia y otras 
+características de rendimiento que, la aplicación debería poder ejecutar de forma continua, procesar
+5000 pedidos por segundos, etc.
+También puede solicitar la funcionalidad requerida para agregar usuarios, otorgar acceso, revocar el
+acceso, monitorear, etc.
+
+3- Las ESTRUCTURAS BASICAS pueden ser:
+  *SECUENCIALES: cuando una instrucción del programa sigue a otra. Constan de entrada, Proceso y Salida.
+
+  *SELECCION O DECISION: acciones en las que la ejecución de alguna dependerá de que se cumplan una o 
+  varias condiciones. Pueden ser simples, dobles, compuestas y múltiples.
+
+  *REPETICION O ITERACION: cuando un proceso se repite en tanto cierta condición sea establecida para
+  finalizar ese proceso. Estas pueden ser: WHILE, FOR, REPEAT.
+
+4- Las ventajas de la PROGRAMACION MODULAR son:
+
+    * Reducir la complejidad del problema.
+    * Reducir el tamaño del problema.
+    * Favorecer el entendimiento del problema.
+    * Facilitar la cooperación entre programadores.
+    * Reutilizar código.
+    * Facilitan la lectura del código.
+    * Ayuda a ser mas clara la lógica del programa.
+    * Protege contra efectos colaterales (destrucción accidental de datos de programa)
+    * Permite plantear una solución completa del problema, para luego profundizar en los detalles.
+    * La depuración es mas fácil de realizar ya que primero se corrigen errores en los módulos de nivel
+      inferior.
+
+5- Una ABSTRACCION puede definirse como las características específicas de un objeto, aquellas que las
+distinguen de los demás tipos de objetos y que logran definir límites conceptuales respecto a quien está
+haciendo dicha abstracción del objeto. Una ABSTRACCION se enfoca en la visión esxterna de un objeto, 
+separa el comportamiento específico de un objeto.
+
+6- Un INTERPRETE es un programa informático que procesa el código fuente de un proyecto de software
+durante su tiempo de ejecución, es decir, mientras el software se está ejecutando, y actúa como una 
+interfaz entre ese proyecto y el procesador.
+
+7- Un PATRON DE SOFTWARE es una técnica que permite la resolución de problemas de distinta índole,como
+por ejemplo, problemas de comportamiento, problemas estructurales, o bien, problemas creacionales.
